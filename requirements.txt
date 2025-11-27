@@ -1,4 +1,10 @@
-streamlit>=1.45.0
-numpy>=2.1.0
-pillow>=11.0.0
-opencv-python-headless>=4.10.0.0
+numpy
+opencv-python-headless
+Pillow
+streamlit
+requests
+pandas
+yfinance
+plotly
+qrcode
+faker
