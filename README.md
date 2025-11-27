@@ -1,35 +1,71 @@
-# 🎽 Random T‑Shirt Style Generator
+# 🚀 Super Duper Streamlit App
 
-A playful Streamlit app that procedurally generates abstract “T‑shirt print” designs using **NumPy**, **OpenCV**, **Pillow**, **math**, **colorsys**, and randomness.  
-It composes wild combinations of circles, squares, polygons, and lines with smart color palettes, gradients, noise textures, and text overlays — perfect for generating unique T‑shirt art.
-
----
+A feature-packed multi-page Streamlit application containing over 30+ utilities, tools, and fun experiments. Originally a T-shirt style generator, it has evolved into a Swiss Army knife for developers and users alike.
 
 ## ✨ Features
 
-- **Procedural art** with layered shapes: circles, squares, rectangles, polygons, lines
-- **Smart color palettes**: random, complementary, triadic, analogous, monochrome
-- **Base styles**: solid, vertical stripes, radial gradient, linear gradient, noise
-- **Random seed** for reproducible results
-- **Noise blending** for texture
-- **Optional text overlay** with bold random words
-- **Resolution control** (supports large canvases for print, e.g., 4500×5400 for 15×18" at 300 DPI)
-- **Transparent background** option
-- **Download as PNG**
+### 🏠 Home
+- **T-Shirt Style Generator**: Procedural abstract art generator for unique T-shirt designs.
+
+### 🛠️ Utilities
+- **QR Code Generator**: Create custom QR codes instantly.
+- **Password Generator**: Secure password creation with custom rules.
+- **Unit Converter**: Length, Weight, and Temperature conversions.
+- **Text Analyzer**: Word counts, case conversion, and more.
+- **Developer Tools**: UUID generator, JSON formatter.
+- **Lorem Ipsum**: Generate placeholder text.
+- **Stopwatch**: Simple timer for your tasks.
+
+### 🌍 Geo Info
+- **Weather Dashboard**: Real-time weather and 7-day forecasts (Open-Meteo).
+- **Country Info**: Detailed country data (flags, population, currency).
+- **IP Lookup**: Geolocation and ISP information.
+
+### 📈 Finance
+- **Crypto Tracker**: Top 10 cryptocurrencies by market cap.
+- **Stock Charts**: Interactive history charts for any ticker (yfinance).
+- **Loan Calculator**: Estimate monthly payments and total interest.
+- **Compound Interest**: Calculate investment growth over time.
+
+### 🎲 Fun Zone
+- **Jokes & Trivia**: Random jokes and number facts.
+- **Predictions**: AI guesses your age, gender, and nationality by name.
+- **Cute Animals**: Infinite cats and dogs.
+- **Activity Suggester**: Never be bored again.
+
+### 🖼️ Image Tools
+- **Filters**: Apply blur, contour, grayscale, and more.
+- **Resizer**: Resize images with ease.
+- **Metadata Viewer**: Inspect EXIF data.
 
 ---
 
 ## 📦 Installation
 
-Clone the repository and install dependencies:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/bhanu2006-24/tshirtgen
+   cd tshirtgen
+   ```
 
-```bash
-git clone https://github.com/bhanu2006-24/tshirtgen
-cd tshirt-style-generator
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Create a virtual environment (recommended)
-conda create -n tshirtgen python=3.11
-conda activate tshirtgen
+3. **Run the app**:
+   ```bash
+   streamlit run app.py
+   ```
 
-# Install requirements
-pip install -r requirements.txt
+## 🛠️ Technologies
+- **Streamlit**: UI Framework
+- **Pandas & NumPy**: Data processing
+- **Plotly**: Interactive charts
+- **Pillow & OpenCV**: Image processing
+- **Requests**: API integration
+- **yfinance**: Financial data
+
+---
+
+*Built with ❤️ using Streamlit*
